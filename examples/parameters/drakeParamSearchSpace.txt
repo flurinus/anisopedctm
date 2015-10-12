@@ -1,0 +1,4 @@
+#FunDiag: Drake
+vf [m/s], 0.8, 1.2
+thetaDrake [m^4], 1e-5, 0.4
+mu [-], 1.0, 15.0

@@ -1,0 +1,29 @@
+#configuration file (do not change order of parameters)
+input directory: examples/
+output directory: examples/output/HKU-weidmann/84/
+parameter file name: parameters/weidmannParamHKU.txt
+link configuration file name: networks/HKU_links.txt
+cell configuration file name: networks/HKU_cells.txt
+route configuration file name: networks/HKU_routes.txt
+fundamental diagram: Weidmann
+CFL factor: 1.0
+
+# Output
+text output: false
+debug output: false
+
+# Visualization
+visualization: false
+display cell names: false
+display numbers: true
+correspondences (visualization) file name: parameters/correspondences_visualization.txt
+
+# Demand
+demand format: disaggregate
+demand file name: demand/HKU-84_180_87_0-87.txt
+write aggregated table: false
+
+# Calibration
+parameter search range file: parameters/weidmannParamSearchSpace.txt
+calibration mode: travel time distribution
+aggregation period (sec): 6

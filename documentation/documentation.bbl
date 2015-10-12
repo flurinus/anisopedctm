@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{H\"anseler et~al.(2015)H\"anseler, Lam, Bierlaire, Lederrey, and
+  Nikoli\'c}]{heart2015}
+H\"anseler, F.~S., Lam, W. H.~K., Bierlaire, M., Lederrey, G., Nikoli\'c, M.,
+  2015. A dynamic network loading model for anisotropic and congested
+  pedestrian flows. Presentation, 4th Annual Conference of The European
+  Association for Research in Transportation, Copenhagen, Denmark.
+
+\end{thebibliography}

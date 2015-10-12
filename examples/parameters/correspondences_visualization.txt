@@ -1,0 +1,6 @@
+# Give the correspondences between N, S, E, W and UP, DOWN, RIGHT, LEFT (Separation with a ',')
+N, UP
+S, DOWN
+E, RIGHT
+W, LEFT
+

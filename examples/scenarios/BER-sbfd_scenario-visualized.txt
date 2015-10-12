@@ -1,0 +1,29 @@
+#configuration file (do not change order of parameters)
+input directory: examples/
+output directory: examples/output/BER-sbfd-visualized/
+parameter file name: parameters/sbfdParamBER.txt
+link configuration file name: networks/BER_links.txt
+cell configuration file name: networks/BER_cells.txt
+route configuration file name: networks/BER_routes.txt
+fundamental diagram: SbFD
+CFL factor: 1.0
+
+# Output
+text output: true
+debug output: false
+
+# Visualization
+visualization: true
+display cell names: false
+display numbers: true
+correspondences (visualization) file name: parameters/correspondences_visualization.txt
+
+# Demand
+demand format: disaggregate
+demand file name: demand/BER_disagg_demand.txt
+write aggregated table: false
+
+# Calibration
+parameter search range file: parameters/sbfdParamSearchSpace.txt
+calibration mode: travel time distribution
+aggregation period (sec): 4.8

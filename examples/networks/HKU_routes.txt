@@ -1,0 +1,3 @@
+#routeName, zoneSequence
+E->W, ZE-ZEGATE-ZEW-ZCW-ZWW-ZWGATE-ZW
+W->E, ZW-ZWGATE-ZWW-ZCW-ZEW-ZEGATE-ZE
